@@ -4,7 +4,7 @@ export const About = (props: Props) => {
     return (
         <section id="about" className="snap-center">
             <div className="aboutTitle">
-                <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500">About</h3>
+                <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">About</h3>
                 <div className='space-y-10 px-0 md:px-10 '>
                     <h4 className='text-4xl font-semibold'>
                         A <span className="underline decoration-[red]/70">little</span> background about me
