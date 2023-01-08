@@ -24,7 +24,7 @@ export const Header = (props: Props) => {
         </motion.div>
 
         <motion.div initial={right.init} animate={right.anim} transition={right.trans} className='flex flex-row items-center text-gray-300'>
-            <SocialIcon className='cursor-pointer' network='email' fgColor='gray' bgColor='transparent' />
+            <SocialIcon className='cursor-pointer' url='mailto:alexander.pereze02@gmail.com' network='email' fgColor='gray' bgColor='transparent' />
             <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>get in touch</p>
         </motion.div>
     </header>
