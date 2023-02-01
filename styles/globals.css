@@ -26,4 +26,9 @@
         @apply rounded-full border border-gray-500 object-cover w-20 h-20 filter 
         group-hover:grayscale transition duration-300 ease-in-out
     }
+
+    .contactInput{
+        @apply outline-none bg-slate-400/10 rounded-sm border-b px-6 py-4 border-[#242424] 
+        text-gray-500 placeholder-gray-500 transition-all focus:border-[#f7ab0a]/40 focus:text-[#f7ab0a]/40
+    }
 }
