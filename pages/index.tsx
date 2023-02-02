@@ -13,7 +13,7 @@ export default function Home() {
     <div className="bg-[rgb(36,36,36)] text-white h-screen overflow-x-hidden snap-y snap-mandatory overflow-y-scroll z-0 
     scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/40">
       <Head>
-        <title>Alexander&apos;s Portfolio</title>
+        <title>Alexander's Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
