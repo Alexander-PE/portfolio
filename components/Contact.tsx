@@ -21,8 +21,8 @@ export const Contact = () => {
 
                 <div className="flex flex-col space-y-10">
                     <h4 className="text-2xl font-semibold text-center">
-                        I"ve got just what you need.{" "}
-                        <span className="underline decoration-[#f7ab0a]/50">Let"s Talk.</span>
+                        I&apos;ve got just what you need.{" "}
+                        <span className="underline decoration-[#f7ab0a]/50">Let&apos;s Talk.</span>
                     </h4>
 
                     <div className="space-y-10">
