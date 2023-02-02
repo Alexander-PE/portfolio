@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export const Projects = () => {
 
   const projects = [1,2,3,4,5]
@@ -9,14 +11,14 @@ export const Projects = () => {
 
             <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20">
               {
-                projects.map(project => (
-                  <div className="w-screen flex-shrink-0 snap-center flex flex-col">
-                    <img src="" alt="" />
-                    <div>
-                      <h4>Case</h4>
-                    </div>
-                  </div>
-                ))
+                // projects.map((item, key) => (
+                //   <div className="w-screen flex-shrink-0 snap-center flex flex-col">
+                //imagen
+                //     <div>
+                //       <h4>Case</h4>
+                //     </div>
+                //   </div>
+                // ))
               }
             </div>
 
