@@ -1,12 +1,10 @@
 import { motion } from 'framer-motion'
-import {HTML} from '../icons/HTML.jsx'
-import {CSS} from '../icons/CSS.jsx'
-import {ReactIcon} from '../icons/React.jsx'
-import {Git} from '../icons/Git.jsx'
-import {Next} from '../icons/Next.jsx'
-import {Js} from '../icons/Js.jsx'
-
-
+import {HTML} from '../icons/HTML'
+import {CSS} from '../icons/CSS'
+import {ReactIcon} from '../icons/ReactIcon'
+import {Git} from '../icons/Git'
+import {Next} from '../icons/Next'
+import {Js} from '../icons/Js'
 
 type Props = {}
 
