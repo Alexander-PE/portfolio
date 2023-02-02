@@ -19,11 +19,11 @@
     
     .skills{
         @apply flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen 
-        justify-center xl:space-y-0 mx-auto items-center
+        xl:space-y-0 mx-auto items-center justify-center
     }
 
     .skillsImg{
-        @apply rounded-full border border-gray-500 object-cover w-20 h-20 filter 
+        @apply rounded-full border border-gray-500 object-cover w-20 h-20 xl:w-32 xl:h-32 filter 
         group-hover:grayscale transition duration-300 ease-in-out
     }
 

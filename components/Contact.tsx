@@ -13,33 +13,34 @@ type Props = {}
 export const Contact = ({ }: Props) => {
 
     const { register, handleSubmit} = useForm<Inputs>();
-    const onSubmit: SubmitHandler<Inputs> = FormData => console.log(FormData);
+    const onSubmit: SubmitHandler<Inputs> = FormData => {
+        window.location.href = `mailto:alexander.pereze02@gmail.com?subject=${FormData.subject}&body=Hi, my name is ${FormData.name}, ${FormData.message} (${FormData.email})`
+    }
 
     return (
         <section id='contact' className='snap-start'>
-            <div className="flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center">
-                <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>Contact</h3>
+            <div className="h-screen flex relative flex-col text-center md:text-left xl:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
 
                 <div className='flex flex-col space-y-10'>
-                    <h4 className='text-4xl font-semibold text-center'>
+                    <h4 className='text-2xl font-semibold text-center'>
                         I've got just what you need.{" "}
-                        <span className="underline decoration-[#f7ab0a]/50">Lest Talk.</span>
+                        <span className="underline decoration-[#f7ab0a]/50">Let's Talk.</span>
                     </h4>
 
                     <div className='space-y-10'>
                         <div className='flex items-center space-x-5 justify-center'>
-                            <PhoneIcon className='text-[#f7ab0a] h-7 w-7 animate-pulse' />
-                            <p className='text-2xl'>+18297603665</p>
+                            <PhoneIcon className='text-[#f7ab0a] h-6 w-6 animate-pulse' />
+                            <p className='text-xl'>+18297603665</p>
                         </div>
 
                         <div className='flex items-center space-x-5 justify-center'>
-                            <EnvelopeIcon className='text-[#f7ab0a] h-7 w-7 animate-pulse' />
-                            <p className='text-2xl'>alexander.pereze02@gmail.com</p>
+                            <EnvelopeIcon className='text-[#f7ab0a] h-6 w-6 animate-pulse' />
+                            <p className='text-xl'>alexander.pereze02@gmail.com</p>
                         </div>
 
                         <div className='flex items-center space-x-5 justify-center'>
-                            <MapPinIcon className='text-[#f7ab0a] h-7 w-7 animate-pulse' />
-                            <p className='text-2xl'>Dominican Republic, Santo Domingo</p>
+                            <MapPinIcon className='text-[#f7ab0a] h-6 w-6 animate-pulse' />
+                            <p className='text-xl'>Dominican Republic, Santo Domingo</p>
                         </div>
                     </div>
 
