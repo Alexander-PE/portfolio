@@ -1,6 +1,4 @@
-type Props = {}
-
-export const About = (props: Props) => {
+export const About = () => {
     return (
         <section id="about" className="snap-center">
             <div className="aboutTitle">

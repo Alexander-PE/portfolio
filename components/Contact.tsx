@@ -7,10 +7,8 @@ type Inputs = {
     subject: string;
     message: string;
 };
-type Props = {}
-  
 
-export const Contact = ({ }: Props) => {
+export const Contact = () => {
 
     const { register, handleSubmit} = useForm<Inputs>();
     const onSubmit: SubmitHandler<Inputs> = FormData => {

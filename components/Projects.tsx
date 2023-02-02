@@ -1,8 +1,4 @@
-import React from 'react'
-
-type Props = {}
-
-export const Projects = ({}: Props) => {
+export const Projects = () => {
 
   const projects = [1,2,3,4,5]
 

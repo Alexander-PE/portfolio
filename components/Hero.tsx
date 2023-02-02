@@ -2,9 +2,7 @@ import { Cursor, Typewriter } from "react-simple-typewriter"
 import { Buttons } from "./Buttons"
 import { Circles } from "./Circles"
 
-type Props = {}
-
-export const Hero = ({ }: Props) => {
+export const Hero = () => {
     const words = ["Hi, My name's Alexander Pérez", 'Guy-who-loves-games.tsx', '<AndLovesCoding />']
 
     return (

@@ -1,7 +1,5 @@
 import { motion } from 'framer-motion' 
 
-type Props = {}
-
 const circle = {
     init: { opacity: 0},
     anim: { 
@@ -12,7 +10,7 @@ const circle = {
     trans: { duration: 2.5 }
 }
 
-export const Circles = ({}: Props) => {
+export const Circles = () => {
   return (
     <motion.div initial={circle.init} animate={circle.anim} transition={circle.trans} className='relative flex justify-center items-center'>
         <div className='absolute border border-[#333333] rounded-full h-[200px] w-[200px] mt-52 animate-ping'/>

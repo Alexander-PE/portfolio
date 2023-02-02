@@ -1,8 +1,6 @@
 import Link from 'next/link'
 
-type Props = {}
-
-export const Buttons = (props: Props) => {
+export const Buttons = () => {
     return (
         <div className="pt-5 space-x-5">
             <Link href="#about">

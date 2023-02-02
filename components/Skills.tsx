@@ -6,9 +6,7 @@ import {Git} from '../icons/Git'
 import {Next} from '../icons/Next'
 import {Js} from '../icons/Js'
 
-type Props = {}
-
-export const Skills = (props: Props) => {
+export const Skills = () => {
     
     return (
         <section id='skills' className='snap-start'>
