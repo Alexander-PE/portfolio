@@ -17,9 +17,9 @@ export const Contact = () => {
 
     return (
         <section id="contact" className="snap-start">
-            <div className="h-screen flex relative flex-col text-center md:text-left xl:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center max-[800px]:items-center max-[800px]:flex-col">
+            <div className="h-screen flex relative flex-col text-center md:text-left xl:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center max-[800px]:flex-col">
 
-                <div className="flex flex-col space-y-10">
+                <div className="flex flex-col space-y-6">
                     <h4 className="text-2xl font-semibold text-center">
                         I've got just what you need.{" "}
                         <span className="underline decoration-[#f7ab0a]/50">Let's Talk.</span>
