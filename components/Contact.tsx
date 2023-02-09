@@ -10,7 +10,7 @@ type Inputs = {
 
 export const Contact = () => {
 
-    const { register, handleSubmit} = useForm<Inputs>();
+    const { register, handleSubmit } = useForm<Inputs>();
     const onSubmit: SubmitHandler<Inputs> = FormData => {
         window.location.href = `mailto:alexander.pereze02@gmail.com?subject=${FormData.subject}&body=Hi, my name is ${FormData.name}, ${FormData.message} (${FormData.email})`
     }
@@ -43,13 +43,12 @@ export const Contact = () => {
                     </div>
 
 
-                    <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-2 w-fit mx-auto max-[800px]:w-4/5">
-                        <div className="flex space-x-2">
-                            <input {...register("name")} placeholder="Name" className="contactInput" type="text" />
-                            <input {...register("email")} placeholder="Email" className="contactInput" type="email" />
-                        </div>
+                    <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-2 w-fit mx-auto max-[800px]:w-4/5 max-[800px]:p-3">
+                        <input {...register("name")} placeholder="Name" className="contactInput" type="text" />
+                        
+                        <input {...register("email")} placeholder="Email" className="contactInput" type="email" />
 
-                        <input {...register("subject")} placeholder="Subject" className="contactInput" type="text"/>
+                        <input {...register("subject")} placeholder="Subject" className="contactInput" type="text" />
 
                         <textarea {...register("message")} placeholder="Message" className="contactInput" />
 
