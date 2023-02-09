@@ -15,7 +15,7 @@ export const Skills = () => {
 
                 {/* <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm">Hover over a skill for information</h3> */}
             
-                <div className="grid grid-cols-4 gap-7 max-[850px]:w-9 max-[850px]:h-9">
+                <div className="grid grid-cols-3 gap-9 max-[850px]:w-96 max-[850px]:h-96 ">
                     <HTML />
                     <CSS />
                     <ReactIcon />
