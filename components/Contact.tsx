@@ -17,7 +17,7 @@ export const Contact = () => {
 
     return (
         <section id="contact" className="snap-start">
-            <div className="h-screen flex relative flex-col text-center md:text-left xl:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
+            <div className="h-screen flex relative flex-col text-center md:text-left xl:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center max-[800px]:items-center max-[800px]:flex-col">
 
                 <div className="flex flex-col space-y-10">
                     <h4 className="text-2xl font-semibold text-center">
@@ -42,7 +42,8 @@ export const Contact = () => {
                         </div>
                     </div>
 
-                    <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-2 w-fit mx-auto">
+
+                    <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-2 w-fit mx-auto max-[800px]:w-4/5">
                         <div className="flex space-x-2">
                             <input {...register("name")} placeholder="Name" className="contactInput" type="text" />
                             <input {...register("email")} placeholder="Email" className="contactInput" type="email" />
@@ -54,7 +55,6 @@ export const Contact = () => {
 
                         <button type="submit" className="bg-[#f7ab0a] py-5 px-10 rounded-md text-black font-bold text-lg">Submit</button>
                     </form>
-
                 </div>
             </div>
         </section>
