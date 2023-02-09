@@ -25,7 +25,7 @@ export const Contact = () => {
                         <span className="underline decoration-[#f7ab0a]/50">Let's Talk.</span>
                     </h4>
 
-                    <div className="space-y-10">
+                    <div className="space-y-6">
                         <div className="flex items-center space-x-5 justify-center">
                             <PhoneIcon className="text-[#f7ab0a] h-6 w-6 animate-pulse" />
                             <p className="text-xl">+18297603665</p>
@@ -43,7 +43,7 @@ export const Contact = () => {
                     </div>
 
 
-                    <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-2 w-fit mx-auto max-[800px]:w-4/5 max-[800px]:p-1">
+                    <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-2 w-fit mx-auto max-[800px]:w-fit">
                         <input {...register("name")} placeholder="Name" className="contactInput" type="text" />
 
                         <input {...register("email")} placeholder="Email" className="contactInput" type="email" />
