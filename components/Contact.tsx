@@ -43,9 +43,9 @@ export const Contact = () => {
                     </div>
 
 
-                    <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-2 w-fit mx-auto max-[800px]:w-4/5 max-[800px]:p-3">
+                    <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-2 w-fit mx-auto max-[800px]:w-4/5 max-[800px]:p-1">
                         <input {...register("name")} placeholder="Name" className="contactInput" type="text" />
-                        
+
                         <input {...register("email")} placeholder="Email" className="contactInput" type="email" />
 
                         <input {...register("subject")} placeholder="Subject" className="contactInput" type="text" />
